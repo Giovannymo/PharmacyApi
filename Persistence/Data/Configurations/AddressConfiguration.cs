@@ -6,8 +6,8 @@ using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistence.Data.Configurations
-{
+namespace Persistence.Data.Configurations;
+
     public class AddressConfiguration
     {
         public void Configure(EntityTypeBuilder<Address> builder)
@@ -35,4 +35,3 @@ namespace Persistence.Data.Configurations
             .HasForeignKey<Patient>(p => p.IdAddressFk);
         }
     }
- }
