@@ -25,6 +25,7 @@ namespace Persistence.Data.Configurations
             builder.HasOne(p => p.Address)
             .WithOne(p => p.Patient)
             .HasForeignKey<Address>(p => p. IdPatientFk);
+    
         }
     }
 }

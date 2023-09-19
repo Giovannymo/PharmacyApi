@@ -7,7 +7,7 @@ namespace Domain.Entities
         public Sale Sale {get;set;}
         public int IdMedicineFk {get;set;}
         public Medicine Medicine {get;set;}
-        public string AmountSold {get;set;}
-        public double Price {get;set;}
+        public decimal AmountSold {get;set;}
+        public decimal Price {get;set;}
     }
 }

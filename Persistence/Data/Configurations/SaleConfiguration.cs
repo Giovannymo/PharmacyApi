@@ -17,7 +17,14 @@ namespace Persistence.Data.Configurations
             .HasColumnName("Date")
             .IsRequired()
             .HasMaxLength(50);  
+
+            builder.HasOne(p => p.Patient)
+            .WithMany(p => p.Sales)
+            .HasForeignKey(p => p.IdPatientFk); 
         
+            builder.HasOne(p => p.Employee)
+            .WithMany(p => p.Sales)
+            .HasForeignKey(p => p.IdEmployeeFk);
         }
     }
 }

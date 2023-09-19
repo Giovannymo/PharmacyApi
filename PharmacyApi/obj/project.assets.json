@@ -6545,19 +6545,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APT01-62\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\PharmacyApi.csproj",
+      "projectUniqueName": "/workspaces/PharmacyApi/PharmacyApi/PharmacyApi.csproj",
       "projectName": "PharmacyApi",
-      "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\PharmacyApi.csproj",
-      "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\obj\\",
+      "projectPath": "/workspaces/PharmacyApi/PharmacyApi/PharmacyApi.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/PharmacyApi/PharmacyApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6569,8 +6569,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj": {
-              "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj"
+            "/workspaces/PharmacyApi/Application/Application.csproj": {
+              "projectPath": "/workspaces/PharmacyApi/Application/Application.csproj"
             }
           }
         }
@@ -6643,7 +6643,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/7.0.400/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

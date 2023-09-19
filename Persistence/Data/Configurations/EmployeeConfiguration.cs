@@ -18,17 +18,17 @@ namespace Persistence.Data.Configurations
             
             builder.Property(p => p.EmployeeName)
             .IsRequired()
+            .HasColumnName("Name")
             .HasMaxLength(50);
             
             builder.Property(p => p.Charge)
             .IsRequired()
-            .HasColumnType("int")
-            .HasMaxLength(10);
+            .HasMaxLength(30);
 
             builder.Property(p => p.ContractingDate)
             .IsRequired()
             .HasColumnType("Date")
-            .HasMaxLength(10);
+            .HasMaxLength(50);
 
     
         }

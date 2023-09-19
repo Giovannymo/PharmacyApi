@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "PharmacyApp.sln"
+    "dotnet.defaultSolution": "PharmacyApp.sln",
+    "conventionalCommits.scopes": [
+        "Persistence"
+    ]
 }
