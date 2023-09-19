@@ -35,3 +35,4 @@ namespace Persistence.Data.Configurations
             .HasForeignKey(p => p.IdMedicineFk);
         }
     }
+}
