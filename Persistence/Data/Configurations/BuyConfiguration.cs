@@ -35,4 +35,3 @@ namespace Persistence.Data.Configurations
             // .HasForeignKey<Patient>(p => p.IdBuyFk);
         }
     }
-}

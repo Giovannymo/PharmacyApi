@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistence.Data.Configurations
 {
-    public class MedicineSoldConfiguration : IEntityTypeConfiguration<MedicineSold>
+    public class MedicineSoldConfiguration
     {
         public void Configure(EntityTypeBuilder <MedicineSold> builder)
         {
@@ -35,4 +35,3 @@ namespace Persistence.Data.Configurations
             .HasForeignKey(p => p.IdMedicineFk);
         }
     }
-}

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistence.Data.Configurations
 {
-    public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
+    public class EmployeeConfiguration
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
@@ -33,4 +33,3 @@ namespace Persistence.Data.Configurations
     
         }
     }
-}

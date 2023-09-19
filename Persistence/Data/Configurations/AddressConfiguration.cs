@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistence.Data.Configurations
 {
-    public class AddressConfiguration : IEntityTypeConfiguration<Address>
+    public class AddressConfiguration
     {
         public void Configure(EntityTypeBuilder<Address> builder)
         {
@@ -35,4 +35,4 @@ namespace Persistence.Data.Configurations
             .HasForeignKey<Patient>(p => p.IdAddressFk);
         }
     }
-}
+ }
