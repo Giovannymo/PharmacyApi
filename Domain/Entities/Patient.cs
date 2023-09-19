@@ -5,6 +5,7 @@ namespace Domain.Entities;
     {
         public string PatientName {get;set;}
         public string PhoneNumber {get;set;}
+        public int IdAddressFk {get;set;}
         public Address Address {get;set;}
         public ICollection<Sale> Sales { get; set; }
         

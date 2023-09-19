@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\PharmacyApi\\PharmacyApi.csproj": {}
+    "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\PharmacyApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Application\\Application.csproj": {
+    "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\APT01-63\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Application\\obj\\",
+        "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APT01-63\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj"
+              "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj"
               },
-              "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Persistence\\Persistence.csproj": {
-                "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Persistence\\Persistence.csproj"
+              "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -64,17 +64,17 @@
         }
       }
     },
-    "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj": {
+    "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\APT01-63\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\obj\\",
+        "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APT01-63\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -131,17 +131,17 @@
         }
       }
     },
-    "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\APT01-63\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Persistence\\obj\\",
+        "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APT01-63\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -153,8 +153,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Domain\\Domain.csproj"
+              "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -202,17 +202,17 @@
         }
       }
     },
-    "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\PharmacyApi\\PharmacyApi.csproj": {
+    "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\PharmacyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\PharmacyApi\\PharmacyApi.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\PharmacyApi.csproj",
         "projectName": "PharmacyApi",
-        "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\PharmacyApi\\PharmacyApi.csproj",
-        "packagesPath": "C:\\Users\\APT01-63\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\PharmacyApi\\obj\\",
+        "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\PharmacyApi.csproj",
+        "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\PharmacyApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APT01-63\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -224,8 +224,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\APT01-63\\Documents\\Netcore\\PharmacyApp\\Application\\Application.csproj"
+              "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PharmacyApi\\Application\\Application.csproj"
               }
             }
           }
