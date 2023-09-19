@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Persistence.Data.Configurations
-{
+namespace Persistence.Data.Configurations;
     public class PatientConfiguration
     {
         
     }
-}
